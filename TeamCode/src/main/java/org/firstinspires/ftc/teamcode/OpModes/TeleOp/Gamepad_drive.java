@@ -28,7 +28,7 @@ public class Gamepad_drive extends LinearOpMode {
         robot = new Robot(this);
         robot.init();
         boolean isAiming = false;
-        robot.launcher.holyHandGranadeManuel();
+        robot.launcher.holyHandGranadeManuel()
         robot.launcher.two(0);
         robot.launcher.setScorpion_tail();
 
